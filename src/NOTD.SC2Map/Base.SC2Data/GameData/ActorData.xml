@@ -14883,6 +14883,7 @@
         <On Terms="Abil.GravityGrenade.SourceCastStart" Send="AnimBracketStart Grenade Attack {} {} ContentPlayOnce"/>
         <On Terms="Abil.GravityGrenade.SourceCastStart" Send="AnimSetTimeScale Grenade 2.500000"/>
         <On Terms="Behavior.RavagingPhantomControl.Create" Send="SetOpacity 0.500000"/>
+        <On Terms="Abil.GravityGrenade.SourceCastStop" Send="AnimBracketStop Grenade"/>
         <Model value="WarPig"/>
         <BuildModel value="WarPig"/>
         <DeathArray index="Normal" ModelLink="KelmorianMinerDeath" SoundLink="Marine_DeathFXBloodSpray"/>
